@@ -2,7 +2,7 @@
 
 namespace Vehicle
 {
-    public class vehicle
+    public class vehicle 
     {
 
         private double FuelCapacity;
