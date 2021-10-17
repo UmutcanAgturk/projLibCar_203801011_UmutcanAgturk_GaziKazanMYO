@@ -49,35 +49,140 @@ namespace Vehicle
         }
 
         private string FuelTypee;
-        public string fuelTypee { get => FuelTypee; set => FuelTypee = value; }
+        public string fuelTypee { get => FuelTypee; set => FuelTypee = value.ToUpper(); }
 
         private int EngineCapaticy;
-        public int engineCapatcicy {  get => EngineCapaticy; set => EngineCapaticy = value; } 
+        public int engineCapatcicy {
+            get 
+            {
+                return EngineCapaticy;
+            }
+            set 
+            {
+                try
+                {
+                    EngineCapaticy = value; 
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Lütfen Sadece Sayısal Veri Giriniz");
+                }
+
+            }
+        } 
         
-
-        private double Speed = 0 ;
-        public double speed { get => Speed; set => Speed = value; }
-
         private double MaxSpeed;
-        public double maxSpeed { get => MaxSpeed; set => MaxSpeed = value; }
+        public double maxSpeed 
+        {
+            get
+            {
+                return MaxSpeed;
+            }
+            set
+            {
+                try
+                {
+                    MaxSpeed = value;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Lütfen Sadece Sayısal Veri Giriniz");
+                }
+                
+
+            }
+        }
 
         private int Door;
-        public int door { get => Door; set => Door = value; }
+        public int door 
+        {
+            get
+            {
+                return Door;
+            }
+            set
+            {
+                
+                try
+                {
+                    Door = value;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Lütfen Sadece Sayısal Veri Giriniz");
+                }
+            }
+        }
 
         private int SeatingCapaity;
-        public int seatingCapaity { get => SeatingCapaity; set => SeatingCapaity = value; }
+        public int seatingCapaity
+        {
+            get
+            {
+                return SeatingCapaity;
+            }
+            set
+            {
+               
+                try
+                {
+                    SeatingCapaity = value;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Lütfen Sadece Sayısal Veri Giriniz");
+                }
+
+            }
+        }
 
         private string Model;
-        public string  model { get => Model; set => Model = value; }
+        public string  model { get => Model; set => Model = value.ToUpper(); }
 
         private string Brand;
-        public string brand { get => Brand; set => Brand = value; }
+        public string brand { get => Brand; set => Brand = value.ToUpper(); }
 
         private double LuggageCapacity;
-        public double luggageCapaity { get => LuggageCapacity; set => LuggageCapacity = value; }
+        public double luggageCapaity 
+        {
+            get
+            {
+                return LuggageCapacity;
+            }
+            set
+            {
+                
+                try
+                {
+                    LuggageCapacity = value;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Lütfen Sadece Sayısal Veri Giriniz");
+                }
+            }
+        }
 
         private int NumberofWheels;
-        public int numberOfWheels { get => NumberofWheels; set => NumberofWheels = value; }
+        public int numberOfWheels
+        {
+            get
+            {
+                return NumberofWheels;
+            }
+            set
+            {
+                
+                try
+                {
+                    NumberofWheels = value;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Lütfen Sadece Sayısal Veri Giriniz");
+                }
+            }
+        }
 
 
 
