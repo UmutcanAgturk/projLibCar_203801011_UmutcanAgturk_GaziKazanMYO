@@ -5,22 +5,22 @@ using Vehicle;
 
 namespace Vehicle
 {
-    public class car : vehicle
+    public class car : vehicle //Integration of car class by inheriting vehicle class.
     {
         private string Bluetooth;
-        public string bluethooth { get => Bluetooth; set => Bluetooth = value.ToUpper(); }
+        public string bluethooth { get => Bluetooth; set => Bluetooth = value.ToUpper(); }//Enlarge all string data
 
         private string AirConditioning;
-        public string airConditioning { get => AirConditioning; set => AirConditioning = value.ToUpper(); }
+        public string airConditioning { get => AirConditioning; set => AirConditioning = value.ToUpper(); }//Enlarge all string data
 
         private string BodyType;
-        public string bodyType { get => BodyType; set => BodyType = value.ToUpper(); }
+        public string bodyType { get => BodyType; set => BodyType = value.ToUpper(); }//Enlarge all string data
 
         private string Variant;
-        public string variant { get => Variant; set => Variant = value.ToUpper(); }
+        public string variant { get => Variant; set => Variant = value.ToUpper(); }//Enlarge all string data
 
         private int Year;
-        public int year 
+        public int year //Using try catch numeric data.
         {
             get 
             {

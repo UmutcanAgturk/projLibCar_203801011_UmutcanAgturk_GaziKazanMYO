@@ -7,7 +7,7 @@ namespace Vehicle
     {
     
         private double FuelCapacity;
-        public double fuelCapacity
+        public double fuelCapacity//Using try catch numeric data.
         {
             
             get
@@ -29,7 +29,8 @@ namespace Vehicle
         }
 
         private double FuelConsumption;
-        public double fuelConsumption {
+        public double fuelConsumption//Using try catch numeric data.
+        {
             get
             {
                 return FuelConsumption;
@@ -49,10 +50,11 @@ namespace Vehicle
         }
 
         private string FuelTypee;
-        public string fuelTypee { get => FuelTypee; set => FuelTypee = value.ToUpper(); }
+        public string fuelTypee { get => FuelTypee; set => FuelTypee = value.ToUpper(); }//Enlarge all string data
 
         private int EngineCapaticy;
-        public int engineCapatcicy {
+        public int engineCapatcicy //Using try catch numeric data.
+        {
             get 
             {
                 return EngineCapaticy;
@@ -72,7 +74,7 @@ namespace Vehicle
         } 
         
         private double MaxSpeed;
-        public double maxSpeed 
+        public double maxSpeed //Using try catch numeric data.
         {
             get
             {
@@ -94,7 +96,7 @@ namespace Vehicle
         }
 
         private int Door;
-        public int door 
+        public int door //Using try catch numeric data.
         {
             get
             {
@@ -115,7 +117,7 @@ namespace Vehicle
         }
 
         private int SeatingCapaity;
-        public int seatingCapaity
+        public int seatingCapaity //Using try catch numeric data.
         {
             get
             {
@@ -137,13 +139,13 @@ namespace Vehicle
         }
 
         private string Model;
-        public string  model { get => Model; set => Model = value.ToUpper(); }
+        public string  model { get => Model; set => Model = value.ToUpper(); }//Enlarge all string data
 
         private string Brand;
-        public string brand { get => Brand; set => Brand = value.ToUpper(); }
+        public string brand { get => Brand; set => Brand = value.ToUpper(); }//Enlarge all string data
 
         private double LuggageCapacity;
-        public double luggageCapaity 
+        public double luggageCapaity //Using try catch numeric data.
         {
             get
             {
@@ -164,7 +166,7 @@ namespace Vehicle
         }
 
         private int NumberofWheels;
-        public int numberOfWheels
+        public int numberOfWheels //Using try catch numeric data.
         {
             get
             {
