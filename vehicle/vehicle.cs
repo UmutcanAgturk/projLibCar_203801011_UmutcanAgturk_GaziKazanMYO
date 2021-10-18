@@ -1,9 +1,8 @@
 ﻿using System;
-using System.IO;
 
 namespace Vehicle
 {
-    public class vehicle 
+    internal class vehicle 
     {
     
         private double FuelCapacity;
